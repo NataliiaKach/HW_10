@@ -1,0 +1,50 @@
+    1  git config --global user.name "Nataliia Kachan"
+    2  git config --global user.email "ka4frompoltava@gmail.com"
+    3  git clone https://github.com/NataliiaKach/HW_10.git
+    4  cd C:/Users/root/Desktop/HW_10
+    5  touch text_ignore.txt
+    6  vim .gitignore
+    7  git status
+    8  git add.
+    9  git add*
+   10  git add .
+   11  cat .gitignore
+   12  cd C:/Users/root/Desktop/HW_10
+   13  git status
+   14  cd C:/Users/root/Desktop/HW_10/HW_10
+   15  git status
+   16  git add .
+   17  git commit -m
+   18  git commit -m "Homework"
+   19  git commit -m "homework"
+   20  touch text_ignore.txt
+   21  git status
+   22  git add text_ignore.txt
+   23  git status
+   24  git commit -m "Created new file text_ignore.txt"
+   25  vim .gitignore
+   26  cat .gitignore
+   27  git status
+   28  git add .gitignore
+   29  git status
+   30  git commit -m "Modified file .gitignore"
+   31  ls
+   32  pwd
+   33  touch main_text.txt
+   34  git add .
+   35  git commit -m "Add a new file main_text.txt"
+   36  git checkout-b "develop"
+   37  git checkout -b "develop"
+   38  touch develop_test.txt
+   39  git add .
+   40  git commit -m "Add a new file develop_test.txt"
+   41  vim develop_test.txt
+   42  git status
+   43  git status develop_test.txt
+   44  git add .
+   45  git status
+   46  git commit -m "Modified file develop_test.txt"
+   47  git checkout main
+   48  git merge develop
+   49  git log
+   50  history > command_list.csv
